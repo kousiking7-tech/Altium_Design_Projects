@@ -100,11 +100,6 @@ All fabrication and assembly outputs are generated via **`Job.OutJob`** for stan
 
 ---
 
-### 📄 Documentation References
-* **[Altium Designer Documentation](https://www.altium.com/documentation/altium-designer)** — Official technical documentation for output generation and release management.
-
----
-
 ## 🎓 Acknowledgments & References
 
 This hardware design was created by following the expert hardware engineering tutorials provided by **Robert Feranec**. 
