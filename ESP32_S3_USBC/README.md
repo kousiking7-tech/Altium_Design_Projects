@@ -127,14 +127,13 @@ This hardware design was created by following the expert hardware engineering tu
 
 ## 👤 Author & Maintainer
 
-<div align="center">
+<p align="center">
+  <b>Designed & Engineered by Kousik P</b><br>
+  <i>Hardware / PCB Design Engineer</i>
+</p>
 
-### **Kousik P**
-*Hardware Engineering | Multi-Layer High-Speed PCB Design*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-github-username)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-
-
-
+<p align="center">
+  <a href="https://github.com/kousiking7-tech"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://linkedin.com/in/your-linkedin-profile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+</p>
