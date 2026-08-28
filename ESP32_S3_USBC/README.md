@@ -108,21 +108,15 @@ This hardware design was created by following the expert hardware engineering tu
 * **YouTube Channel:** [FEDEVEL Educational / Robert Feranec](https://www.youtube.com/watch?v=KWIzhbQaZZk)
 * **Topics Covered:** Altium Designer workflows, 4-layer PCB stackup planning, custom component footprint creation, and USB differential pair routing.
 
-## 📚 Additional Resources & Documentation
+## 📚 Additional Resources
 
 ### 📄 Core Datasheets & Reference Material
-* **[ESP32-S3-MINI-1 Datasheet](Docs/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)** — Official Espressif hardware specifications and pinout reference.
-* **[ESP32 Pinout Sheet](Docs/ESP32%20pinout%20sheet.xlsx)** — Detailed GPIO multiplexing and pin assignment matrix.
-* **[Material Notes](Docs/material_note.xlsx)** — Internal design notes on component selections and stackup parameters.
+* **[ESP32-S3-MINI-1 Datasheet](Docs/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)** — Hardware specifications, RF layout guidelines, and pinout definitions.
+* **[ESP32 Pinout Matrix](Docs/ESP32%20pinout%20sheet.xlsx)** — Detailed GPIO multiplexing and peripheral mapping reference.
+* **[Design & Material Notes](Docs/material_note.xlsx)** — Component selection parameters, stackup constraints, and BOM notes.
 
 ---
 
-### 🏭 Manufacturing & JLCPCB References
-* **[JLCPCB 4-Layer Stackup Guide](https://jlcpcb.com/impedance)** — Technical specs for the **JLC04161H-3313** controlled-impedance stackup.
-* **[Altium Designer Output Documentation](https://www.altium.com/documentation/altium-designer)** — Reference guide for Gerber, NC Drill, and Pick-and-Place generation using `Job.OutJob`.
-
----
-
-### 🛠️ Recommended Software Tools
-* **[Altium Designer](https://www.altium.com/altium-designer)** — Schematic Capture & PCB Layout Editor.
-* **[Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360)** — For importing STEP models (`3D/`) to design 3D enclosures.
+### 🛠️ Design Tools & Official Documentation
+* **[Altium Designer Documentation](https://www.altium.com/documentation/altium-designer)** — Official guides for schematic capture, PCB layout, and Output Job generation.
+* **[Autodesk Fusion 360](https://www.autodesk.com)** — 3D CAD modeling software used for enclosure integration and 3D STEP file validation (`3D/`).
