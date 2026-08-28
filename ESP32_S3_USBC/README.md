@@ -52,7 +52,10 @@ Complete circuit schematic including ESP32-S3 microcontroller circuitry, USB-C i
 ---
 
 ### 🗂️ 2. 4-Layer PCB Board Stackup & Renders (`ESP32 with USBC.PcbDoc`)
-Complete 4-layer routing layout, impedance-matched differential traces, and 3D renderings:
+Complete 4-layer routing layout, stackup configuration, impedance-matched differential traces, and 3D renderings.
+
+#### PCB Layer Stackup
+![Layer Stack Manager](Image/Layer%20Stack%20Manager.png)
 
 #### 3D Board Views
 | Top View (3D Render) | Bottom View (3D Render) |
