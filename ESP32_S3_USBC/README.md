@@ -93,3 +93,22 @@ This hardware design was created by following the expert hardware engineering tu
 * **Instructor:** Robert Feranec (Hardware Design Engineer & Educator)
 * **YouTube Channel:** [FEDEVEL Educational / Robert Feranec](https://www.youtube.com/watch?v=KWIzhbQaZZk)
 * **Topics Covered:** Altium Designer workflows, 4-layer PCB stackup planning, custom component footprint creation, and USB differential pair routing.
+
+## 📚 Additional Resources & Documentation
+
+### 📄 Core Datasheets & Reference Material
+* **[ESP32-S3-MINI-1 Datasheet](Docs/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)** — Official Espressif hardware specifications and pinout reference.
+* **[ESP32 Pinout Sheet](Docs/ESP32%20pinout%20sheet.xlsx)** — Detailed GPIO multiplexing and pin assignment matrix.
+* **[Material Notes](Docs/material_note.xlsx)** — Internal design notes on component selections and stackup parameters.
+
+---
+
+### 🏭 Manufacturing & JLCPCB References
+* **[JLCPCB 4-Layer Stackup Guide](https://jlcpcb.com/capabilities/Capabilities)** — Technical specs for the **JLC04161H-3313** controlled-impedance stackup.
+* **[Altium Designer Output Documentation](https://www.altium.com/documentation)** — Reference guide for Gerber, NC Drill, and Pick-and-Place generation using `Job.OutJob`.
+
+---
+
+### 🛠️ Recommended Software Tools
+* **[Altium Designer](https://www.altium.com/altium-designer)** — Schematic Capture & PCB Layout Editor.
+* **[Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360)** — For importing STEP models (`3D/`) to design 3D enclosures.
