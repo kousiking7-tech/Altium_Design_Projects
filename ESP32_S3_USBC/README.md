@@ -1,19 +1,30 @@
 # ⚡ ESP32-S3 USB-C Hardware Board Design
 
-A compact, 4-layer custom PCB design for the **ESP32-S3** microcontroller featuring native USB-C support, onboard power regulation, and optimized RF ground plane.
+## 📌 Project Overview
+
+This project features a custom **4-layer PCB design** for the **ESP32-S3 Mini** microcontroller with a native **USB-C** interface, developed in **Altium Designer**. 
+
+All schematic symbols, PCB footprints, stackup configurations, and 3D component models were built from scratch and assembled following design practices from **Robert Feranec's** hardware design tutorials.
 
 ---
 
-## 🛠 Project Highlights
-* **CAD Tool:** Altium Designer
-* **Layer Count:** 4 Layers (Signal - GND - PWR - Signal)
-* **USB Interface:** USB 2.0 High-Speed with $90\,\Omega$ differential routing
-* **Power Supply:** $5\text{V}$ VBUS to $3.3\text{V}$ LDO regulator
+### 🛠 Key Specifications
+
+| Parameter | Details |
+| :--- | :--- |
+| **CAD Tool** | Altium Designer |
+| **Microcontroller** | ESP32-S3 Mini |
+| **PCB Layer Count** | 4 Layers (Signal - GND - PWR - Signal) |
+| **Connector Type** | USB Type-C (USB 2.0 High-Speed) |
+| **Library Assets** | Custom Symbols, Footprints & 3D STEP Models |
+| **Impedance Control** | $90\,\Omega$ Differential Traces for USB ($D+/D-$) |
 
 ---
 
 ## 📁 Repository Structure
+
 ```text
-├── Schematics/         # Altium Schematic Documents (.SchDoc)
-├── PCB_Layout/         # 4-Layer PCB File (.PcbDoc)
-└── Outputs/            # Gerber Files, NC Drill & BOM
+ESP32/
+├── ESP32-S3.PrjPcb      # Altium Main Project File
+├── Schematic.SchDoc     # Circuit Schematic Document
+└── PCB_Layout.PcbDoc    # 4-Layer PCB Board Layout
