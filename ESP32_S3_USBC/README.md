@@ -8,16 +8,18 @@ All schematic symbols, PCB footprints, stackup configurations, and 3D component 
 
 ---
 
-### 🛠 Key Specifications
+## 🛠️ Key Specifications
 
-| Parameter | Details |
+| Parameter | Specification Details |
 | :--- | :--- |
 | **CAD Tool** | Altium Designer |
 | **Microcontroller** | ESP32-S3 Mini |
-| **PCB Layer Count** | 4 Layers (Signal - GND - PWR - Signal) |
+| **Board Layers** | 4-Layer Stackup (`Signal` - `GND` - `PWR` - `Signal`) |
+| **Target PCB Stackup** | JLCPCB **JLC04161H-3313** Standard Stackup |
 | **Connector Type** | USB Type-C (USB 2.0 High-Speed) |
-| **Library Assets** | Custom Symbols, Footprints & 3D STEP Models |
-| **Impedance Control** | $90\,\Omega$ Differential Traces for USB ($D+/D-$) |
+| **Circuit Protection** | TVS Diode Array (`AQ3045-01ETG`) for ESD protection on $V_{BUS}$ & Data Lines |
+| **Impedance Control** | $90\,\Omega$ Differential Pair Routing for USB Data Lines ($D+/D-$) |
+| **Library Assets** | Custom Schematic Symbols, PCB Footprints & 3D STEP Models |
 
 ---
 
@@ -51,11 +53,18 @@ Complete circuit schematic including ESP32-S3 microcontroller circuitry, USB-C i
 
 ---
 
-### 🗂️ 2. 4-Layer PCB Board Stackup & Renders (`ESP32 with USBC.PcbDoc`)
-Complete 4-layer routing layout, stackup configuration, impedance-matched differential traces, and 3D renderings.
+### 🗂️ 2. 4-Layer PCB Board Stackup, Renders & Full Board View (`ESP32 with USBC.PcbDoc`)
+Complete 4-layer routing layout, JLCPCB stackup configuration (JLC04161H-3313), impedance-matched differential traces ($90\,\Omega$), and 3D renderings.
 
-#### PCB Layer Stackup
+#### PCB Layer Stackup (JLC04161H-3313)
+* **Stackup Model:** JLCPCB 4-Layer Standard (JLC04161H-3313)
+* **Controlled Impedance:** $90\,\Omega$ Differential Traces for USB 2.0 ($D+/D-$)
+
 ![Layer Stack Manager](Image/Layer%20Stack%20Manager.png)
+
+#### Full Board Layout (All Layers Combined)
+Preview of all signal layers and internal planes overlaid:
+![All Layers View](Image/All%20Layers.png)
 
 #### 3D Board Views
 | Top View (3D Render) | Bottom View (3D Render) |
