@@ -86,6 +86,25 @@ Preview of all signal layers and internal planes overlaid:
 * **`PcbLib.PcbLib`** — Custom Component Footprint Library
 * **`Job.OutJob`** — Altium Manufacturing Output Job File
 
+---
+
+## 🏭 Output Files & Manufacturing Release
+
+All fabrication and assembly outputs are generated via **`Job.OutJob`** for standard PCB manufacturing:
+
+### 📦 Output Files
+* **Gerber Files:** Complete layer traces, silkscreen, solder mask, and paste layer outputs.
+* **NC Drill Files:** Plated (PTH) and non-plated (NPTH) hole coordinates and drill specifications.
+* **Pick & Place File (`.csv`):** Component placement coordinates and orientations for automated SMT assembly.
+* **Bill of Materials (`BOM`):** Comprehensive component list with designators, footprints, and manufacturer part numbers.
+
+---
+
+### 📄 Documentation References
+* **[Altium Designer Documentation](https://www.altium.com/documentation/altium-designer)** — Official technical documentation for output generation and release management.
+
+---
+
 ## 🎓 Acknowledgments & References
 
 This hardware design was created by following the expert hardware engineering tutorials provided by **Robert Feranec**. 
