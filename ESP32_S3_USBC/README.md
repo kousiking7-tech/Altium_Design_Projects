@@ -121,8 +121,18 @@ This hardware design was created by following the expert hardware engineering tu
 * **[Altium Designer Documentation](https://www.altium.com/documentation/altium-designer)** — Official guides for schematic capture, PCB layout, and Output Job generation.
 * **[Autodesk Fusion 360](https://www.autodesk.com)** — 3D CAD modeling software used for enclosure integration and 3D STEP file validation (`3D/`).
 
+---
+
 ## 👤 Author & Maintainer
 
-* **Kousik P** — *Hardware / PCB Design Engineer*
-* **GitHub:** [@your-github-username](https://github.com/kousiking7-tech)
-* **LinkedIn:** [your-linkedin-profile](https://linkedin.com/in/your-profile)
+<p align="center">
+  <b>Designed & Engineered by Kousik P</b><br>
+  <i>Hardware / PCB Design Engineer</i>
+</p>
+
+<p align="center">
+  <a href="https://github.com/your-github-username"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://linkedin.com/in/your-linkedin-profile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+</p>
+
