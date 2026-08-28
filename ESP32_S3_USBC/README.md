@@ -104,7 +104,7 @@ This hardware design was created by following the expert hardware engineering tu
 ---
 
 ### 🏭 Manufacturing & JLCPCB References
-* **[JLCPCB 4-Layer Stackup Guide](https://jlcpcb.com/capabilities/Capabilities)** — Technical specs for the **JLC04161H-3313** controlled-impedance stackup.
+* **[JLCPCB 4-Layer Stackup Guide](https://jlcpcb.com/impedance)** — Technical specs for the **JLC04161H-3313** controlled-impedance stackup.
 * **[Altium Designer Output Documentation](https://www.altium.com/documentation)** — Reference guide for Gerber, NC Drill, and Pick-and-Place generation using `Job.OutJob`.
 
 ---
