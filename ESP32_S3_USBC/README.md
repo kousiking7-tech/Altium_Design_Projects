@@ -100,6 +100,20 @@ All fabrication and assembly outputs are generated via **`Job.OutJob`** for stan
 
 ---
 
+## 🌐 Interactive 3D & Altium 365 Web Viewer
+
+You can inspect the complete schematic, 4-layer PCB layout, and 3D component alignment directly in your web browser without installing Altium Designer:
+
+👉 **[Launch Altium 365 Interactive 3D Viewer](https://kousik-p.365.altium.com/designs/1118BF20-100B-4C25-B650-FC5BA60F2F93)**
+
+### 🔍 Web Viewer Highlights
+* **Interactive 3D Inspection:** Full 360° board rotation and component clearance check.
+* **Cross-Probing:** Click any schematic net to highlight corresponding PCB traces.
+* **Gerber & Layer Stackup:** Real-time inspection of L1–L4 stackup and manufacturing outputs.
+* **BOM Manifest:** Live component list with footprint and designator tracking.
+
+---
+
 ## 🎓 Acknowledgments & References
 
 This hardware design was created by following the expert hardware engineering tutorials provided by **Robert Feranec**. 
